@@ -1,0 +1,100 @@
+/*--------------- Google Fonts ---------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*--------------- Css Variables ---------------*/
+:root {
+  /*----- colors -----*/
+  --primary: #f85d5d;
+  --primary-alt: #fdeded;
+  --secondary: #03a56a;
+  --tertiary: #f9b943;
+  --title: #2e2e2e;
+  --title-alt: #4d4d4d;
+  --text: #666;
+  --bg: #fff;
+  --bg-alt: #fef6f6;
+
+  /*----- font sizes and family -----*/
+  --font-poppins: "Poppins", sans-serif;
+  --fs-h1: 74px;
+  --fs-h2: 40px;
+  --fs-h3: 22px;
+  --fs-xl: 20px;
+  --fs-lg: 18px;
+  --fs-base: 16px;
+  --fs-sm: 14px;
+}
+
+/*--------------- Base ---------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: var(--font-poppins);
+  font-size: var(--fs-base);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title);
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*--------------- Reusable Css Classes ---------------*/
+
+/*--------------- Header ---------------*/
+
+/*--------------- Nav ---------------*/
+
+/* active link */
+
+/*--------------- Home ---------------*/
+
+/*--------------- Button ---------------*/
+
+/*--------------- Services ---------------*/
+
+/*--------------- Feature1 ---------------*/
+
+/*--------------- Feature2 ---------------*/
+
+/*--------------- Cta ---------------*/
+
+/*--------------- Footer ---------------*/
+
+/*=============== BREAKPOINTS ===============*/
+/* for large devices */
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+/* for medium devices */
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
