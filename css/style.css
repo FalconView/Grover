@@ -77,6 +77,15 @@ img {
 /*--------------- Services ---------------*/
 
 /*--------------- Feature1 ---------------*/
+.feature__container {
+  grid-template-columns: 7fr 5fr;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.feature .section__title::before {
+  color: var(--secondary);
+}
 
 /*--------------- Feature2 ---------------*/
 
