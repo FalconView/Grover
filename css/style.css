@@ -88,10 +88,100 @@ img {
 }
 
 /*--------------- Feature2 ---------------*/
+.feature2__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 24px;
+}
+
+.feature2 .section__title::before {
+  color: var(--tertiary);
+}
 
 /*--------------- Cta ---------------*/
+.cta__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 24px;
+}
+
+.cta__img {
+  margin: 0 auto;
+}
+
+.cta__description {
+  margin-bottom: 4.45em;
+}
+
+.cta__buttons {
+  display: inline-flex;
+  column-gap: 16px;
+}
+
+.cta__button {
+  border: 1px solid #eedcdc;
+  width: 200px;
+  padding: 0.9em 0;
+  font-size: var(--fs-xl);
+  font-weight: 500;
+  color: var(--title);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 /*--------------- Footer ---------------*/
+.footer__container {
+  grid-template-columns: 4fr repeat(3, 2.67fr);
+  column-gap: 24px;
+}
+
+.footer__logo img {
+  margin-bottom: 1.25rem;
+}
+
+.footer__container:first-child .footer__description {
+  max-width: 75%;
+}
+
+.footer__description {
+  line-height: 1.625em;
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: var(--fs-lg);
+  margin-bottom: 1.33em;
+  margin-top: 0.44em;
+}
+
+.footer__link {
+  line-height: 2.5em;
+  color: var(--text);
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  color: var(--title);
+}
+
+.footer__bottom {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__bottom p,
+.footer__bottom-link {
+  font-size: var(--fs-sm);
+}
+
+.footer__bottom-link {
+  margin-left: 20px;
+  color: var(--text);
+  font-weight: 500;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* for large devices */
